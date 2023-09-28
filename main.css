@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(imagens/textura-branca.jpg);
+}
+
+
+body > header{
+    background-color: rgb(176, 243, 43);
+    padding: 16px 0;
+}
+header li{
+    display: inline;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+    border-radius: 7%;
+    min-height: 6rem;
+
+}
+
+.articles article {
+    width: 30%
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 3rem;
+}
+
+.articles article h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.articles article a{
+    background-color: blueviolet;
+    color: #fff;
+    padding: .5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+    background-color: rgba(137, 43, 226, 0.741);
+}
+
+#economy{
+    background-color: rgba(255, 255, 0, 0.17);
+}
+
+#sports{
+    background-color: rgba(55, 255, 0, 0.17);
+}
+
+#tecnology{
+    background-color: rgba(0, 76, 255, 0.359);
+}
+
+#culinaria{
+    background-color: rgba(245, 245, 220, 0.471);
+}
