@@ -109,8 +109,12 @@ section{
 }
 
 #formulario button{
-	height: 2rem;
-	width: 5rem;
+	height: 2.5rem;
+	width: 8rem;
+	margin-left: 4.8rem;
+	background-color: #111;
+	font-size: 19px;
+	font-family: beaufort-lol-italic;
 }
 
 form input,
@@ -119,6 +123,8 @@ form textarea{
 	width: 30rem;
 	height: 3rem;
 	margin-bottom: 1rem;
+	color: black;
+	font-size: 20px;
 }
 
 #formulario .container{
@@ -126,10 +132,22 @@ form textarea{
 	justify-content: center;
 }
 
+
 #apresentacao .container .articles img:hover{
 	border-top-left-radius: 20%;
 	border-bottom-right-radius: 25%;
 	transition: 1000ms;
+}
+
+footer{
+	background-color: #111;
+	height: 12rem;
+	padding: 5rem 0;
+}
+
+footer img{
+	height: 3rem;
+	margin-left: 30%;
 }
 
 .articles article:hover{
@@ -142,3 +160,15 @@ header a:hover {
     color: gold;
 	transition: 300ms;
 } 
+
+#formulario button:hover {
+    background-color: rgb(188, 164, 28);
+	color: #111;
+	transition: 300ms;
+} 
+
+input:focus, textarea:focus{
+	outline-color: #111;
+	outline-style: solid;
+	outline-width: .2rem;
+}
