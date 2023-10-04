@@ -1,0 +1,119 @@
+@font-face {
+	font-family: beaufort-lol-italic;
+	src: url(/_fonts/BeaufortforLOL-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: beaufort-lol-bold;
+	src: url(/_fonts/BeaufortforLOL-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: beaufort-lol-regular;
+	src: url(/_fonts/BeaufortforLOL-Regular.ttf) format('truetype');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'beaufort-lol-regular', 'Arial';
+	color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body{
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/9112b576009313.5c5ca8e8c45c3.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter: blur(3px);
+}
+
+body > header{
+	background-color: #111;
+    padding: 16px 0;
+}
+header li{
+    display: inline;
+	margin-right: 2rem;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container h1{
+	color: rgb(255, 255, 255);
+	margin-left: 2rem;
+}
+
+section{
+	margin-top: 1rem;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles article h2{
+	font-family: 'beaufort-lol-italic';
+	font-size: 60px;
+	margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.articles article p{
+	margin-top: 0.5rem;
+	font-family: 'beaufort-lol-regular';
+	font-size: 26px;
+}
+
+.articles article{
+	margin: 2rem;
+	background-color: #1111119e;
+	padding: 3rem 3rem;
+}
+
+.articles article img{
+	margin-left: 20%;
+	height: 18rem;
+	background-size: cover;
+}
+
+#formulario .container{
+	display: block;
+	justify-content: center;
+}
+
+#apresentacao .container .articles img:hover{
+	border-top-left-radius: 20%;
+	border-bottom-right-radius: 25%;
+	transition: 1000ms;
+}
+
+.articles article:hover{
+	background-color: #111111db;
+	transition: 1000ms;
+
+}
+
+header a:hover {
+    color: gold;
+	transition: 300ms;
+} 
