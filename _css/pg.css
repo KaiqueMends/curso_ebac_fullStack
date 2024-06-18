@@ -54,7 +54,7 @@
 }
 
 body{
-	background-color: white;
+	background-color: rgb(30, 29, 29);
 	background-position: center;
 	background-attachment: fixed;
 	backdrop-filter: blur(3px);
@@ -66,4 +66,16 @@ body{
     background-color: yellowgreen;
     display: none;
     color: white;
+}
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.valid {
+    background-color: #4CAF50;
+}
+.invalid {
+    background-color: #f44336;
 }
