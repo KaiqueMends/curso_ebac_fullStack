@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    width: 30rem;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #894bdba8;
+}
+form {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(43, 0, 72);
+}
+#cabecalho {
+    margin-top: 8rem;
+    color: white;
+}
+.conteudo{
+    width: 50%;
+    height: fit-content;
+    margin: 3rem auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-self: center;
+	border-style: solid;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+

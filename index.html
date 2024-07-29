@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="cabecalho">Cadastro de Contatos</h1>
+    <div class="conteudo">
+    <!-- Formulário para adicionar contatos -->
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+        <label for="phone">Telefone:</label>
+        <input type="text" id="phone" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script src="script.js"></script>
+
+    <!-- Tabela de contatos -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody id="contactTable">
+            <!-- As linhas da tabela serão inseridas aqui -->
+        </tbody>
+    </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
